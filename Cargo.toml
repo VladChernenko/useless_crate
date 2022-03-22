@@ -1,0 +1,17 @@
+[package]
+name = "also_useless_from_container"
+version = "0.2.0"
+edition = "2021"
+description = "Just useless test crate"
+readme="README.md"
+license = "MIT OR Apache-2.0"
+license-file = "LICENSE"
+keywords = ["useless", "test","local","dummy"]
+exclude = ["target/*"]
+include = ["Cargo.toml","src/*"]
+categories=["Useless","NoSense"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
