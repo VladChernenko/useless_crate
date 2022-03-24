@@ -15,3 +15,8 @@ categories=["Useless","NoSense"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+
+[[bin]]
+name="testbin"
+path="./src/testbin.rs"
